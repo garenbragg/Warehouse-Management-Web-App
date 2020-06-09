@@ -1,0 +1,72 @@
+﻿@model WMS.Models.InboundModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>InboundModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LoadNum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoadNum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TruckNum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TruckNum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fleet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fleet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dock)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dock)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TrailerLength)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TrailerLength)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ArrivalDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ArrivalDate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

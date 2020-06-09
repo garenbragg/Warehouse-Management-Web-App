@@ -1,0 +1,75 @@
+﻿@model IEnumerable<WMS.Models.InboundModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>INBOUND TRUCKS</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LoadNum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TruckNum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fleet)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dock)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TrailerLength)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ArrivalDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cargo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.LoadNum)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.TruckNum)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Fleet)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Dock)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.TrailerLength)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ArrivalDate)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Cargo.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Quantity)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.LoadNum }) |
+        <!-- @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |-->
+        @Html.ActionLink("Delete", "Delete", new { id = item.LoadNum })
+    </td>
+</tr>
+}
+
+</table>

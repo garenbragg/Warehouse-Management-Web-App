@@ -1,0 +1,16 @@
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\bin\Release\WMS.Data.dll.config
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\bin\Release\WMS.Data.dll
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\bin\Release\WMS.Data.pdb
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\bin\Release\EntityFramework.dll
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\bin\Release\EntityFramework.xml
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\obj\Release\WMS.Data.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\obj\Release\WMS.Data.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\obj\Release\WMS.Data.csproj.CopyComplete
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\obj\Release\WMS.Data.dll
+C:\ElevenFiftyProjects\RED\WMS\WMS\WMS.Data\obj\Release\WMS.Data.pdb
